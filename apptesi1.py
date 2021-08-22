@@ -113,7 +113,7 @@ class Mymqtt:
         
             
 if __name__ == "__main__":
-    agent = SenderAgent("umbertoalessio@jabber.hot-chilli.net", "Um83r70l")
+    agent = SenderAgent("umbertoalessio@jabber.hot-chilli.net", "password")
     future = agent.start()
     future.result()
     mqttc = Mymqtt(agent)
